@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,600&family=Signika:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /*background: #f8dcf0;*/
+    background-image: linear-gradient(#d4e7fc, #cce2fc, #cde3fc);
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Signika', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+}
+#logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+
+}
+
+nav ul li{
+    margin:0 20px;
+}
+
+.logotxt{
+    font-size: 3em;
+    font-weight: 700;
+    color: black;
+}
+
+.nav-link{
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: black;
+}
+
+#home{
+    background:  linear-gradient(rgb(83, 102, 161), rgb(1, 13, 46));
+    color: white;
+    height: 450px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div p{
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+h1,
+h3,
+h4{
+    font-weight: 700;
+}
+h2{
+    font-weight: 700;
+}
+h1{
+    font-size: 5em;
+}
+h2{
+    font-size: 4em;
+}
+h3{
+    font-size: 2.5em;
+}
+
+#bio{
+    display: flex;
+    align-items: center;
+}
+#bio article *{
+    margin:20px;
+}
+
+.break{
+    display: block;
+}
+
+#bio img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10%;
+    margin: 100px;
+}
+p{
+    font-size: 1.5em;
+   
+}
+hr{
+    width: 500px;
+}
+#portfolio{
+    background:  linear-gradient(rgb(83, 102, 161), rgb(1, 13, 46));
+    color: white;
+}
+h4{
+    color: black;
+}
+#portfolio
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+#portfolio div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin:10px 0;
+}
+#portfolio h3,
+p, hr{
+    margin-bottom: 20px;
+}
+
+#portfolio div article{
+    background-color: black;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    color: black;
+}
+#portfolio img{
+    width: 70px;
+    height: 70px;
+    /* margin: 100px; */
+    border-radius: 50%;
+}
+
+#skills
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+#skills_cnt{
+    display: flex;
+    justify-content: space-around;
+    width: 100;
+}
+#skill_cnt div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#skills ul{
+    list-style: none;
+    font-size: 1.5em;
+}
+#skills ul li{
+    margin: 10px 0;
+}
+
+progress[max]{
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+}
+
+progress[max]::-webkit-progress-bar{
+    background-color: rgb(253, 253, 255);
+    border-radius: 5px;
+}
+::-webkit-progress-max{
+    background-color: rgb(229, 236, 240);
+}
+
+#contact{
+    background:  linear-gradient(rgb(83, 102, 161), rgb(1, 13, 46));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 40px 0 0 0;
+}
+.input{
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: black;
+    margin: 20px 0 0 0;
+}
+#skills_cnt{
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px ;
+    justify-content: space-around;
+}
+
+#contact{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.input{
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: rgb(255, 255, 255);
+    margin: 20px 0;
+}
+
+#contact form input:last-child{
+    margin-top: 30px;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+#submit{
+    width: 30%;
+    border-radius:20%;
+}
+
+
+
+/*#bio{
+    background-image: linear-gradient(#fcd4f2 50%, #f8beea, #fdb5ec);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
